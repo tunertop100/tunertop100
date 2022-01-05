@@ -1,3 +1,26 @@
-body {
-    font-size: 15pt;
+body{
+  margin:0;
+  padding: 0;
+}
+header{
+  margin:0;
+  padding: 0;
+  background-color: red;
+}
+ul li{
+  display: inline-block;
+  margin: 5px;
+  
+}
+ul{
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+.home{
+  margin-left: 0px;
+}
+.content{
+  margin-right: 0px;
 }
