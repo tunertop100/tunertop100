@@ -1,15 +1,17 @@
 body{
   margin:0;
-  padding: 0;
+  background:#F1F4FF;
 }
 header{
   margin:0;
   padding: 0;
-  background-color: red;
+  background-color:black;
+
 }
 ul li{
   display: inline-block;
   margin: 5px;
+  color: #F1F4FF;
   
 }
 ul{
