@@ -1,28 +1,27 @@
+@font-face{
+  font-family:title;
+  src:url(fonts/CFGlitchCity-Regular.ttf);
+}
+
 body{
   margin:0;
-  background:#F1F4FF;
+  background: wheat;
 }
 header{
   margin:0;
-  padding: 0;
-  background-color:black;
-
+  background-color:red;
+  padding:20px;
+  background-image: url(menu.png);
+  background-repeat: no-repeat;
+  background-size: 25px;  
+  background-position: left;
+  background-position-x: 20px;
 }
-ul li{
-  display: inline-block;
-  margin: 1.5%;
-  color: #F1F4FF;
-  
-}
-ul{
-  margin: 0;
-  padding: 20px;
-  position: relative;
-  text-align: center;
-}
-.home{
-  margin-left: 0px;
-}
-.content{
-  margin-right: 0px;
+header h1{
+  font-family: title;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 18px; 
+    position: relative;
 }
