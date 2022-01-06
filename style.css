@@ -23,7 +23,12 @@ header h1{
 }
 header img{
  height: 20px;
- position: relative;
+ margin: 0;
  float: left;
- 
+}
+header img:active {
+  height: 20px;
+  position: absolute;
+  transform: rotate(90deg);
+  
 }
