@@ -11,11 +11,6 @@ header{
   margin:0;
   background-color:red;
   padding:20px;
-  background-image: url(menu.png);
-  background-repeat: no-repeat;
-  background-size: 25px;  
-  background-position: left;
-  background-position-x: 20px;
 }
 header h1{
   font-family: title;
@@ -24,4 +19,12 @@ header h1{
     margin: 0;
     font-size: 18px; 
     position: relative;
+
+}
+header img{
+ height: 20px;
+ float: left;
+}
+header a:active{
+ transform:rotate(90deg) ;
 }
