@@ -1,3 +1,4 @@
+
 *{
   text-decoration: none;
   margin: 0;
@@ -9,7 +10,6 @@
   font-family:title;
   src:url(fonts/CFGlitchCity-Regular.ttf);
 }
-
 body{
   margin:0;
   background: white;
@@ -46,4 +46,12 @@ header .logo a{
 header .logo{
   position: relative;
   text-align: center;
+}
+@media screen and (max-width: 800px){
+  header ul li{
+    display:inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
 }
