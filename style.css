@@ -24,7 +24,7 @@ header{
   margin:0;
   background-color:rgb(255, 255, 255);
   height: 100px;
-  filter: drop-shadow(0px 0.5px 5px gray)
+  filter: drop-shadow(0px 0.5px 3px gray)
 }
 header ul{
   font-family: 'Aldrich', Arial, Helvetica, sans-serif;
@@ -56,10 +56,20 @@ header .logo{
 }
 header ul li a{
   color:black;
+
 }
 header ul li a:hover{
+  animation: hover 2s ease-in-out;
   border-bottom: 1px solid black;
   padding-bottom:10px;
+}
+@keyframes hover{
+  0%{
+    border-bottom: ;
+  }
+  100%{
+    border-bottom: black;
+  }
 }
 section{
   position: relative;
