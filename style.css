@@ -5,6 +5,7 @@
   padding: 0;
   list-style: none;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 @font-face{
   font-family:title;
@@ -30,8 +31,7 @@ header ul li{
   margin-left: 40px;
   margin-right: 40px;
 }
-
-header .logo a{
+.logoa{
   background-image: url(gamerpro.png);
   background-size: 180px;
   background-repeat: no-repeat;
@@ -41,12 +41,25 @@ header .logo a{
   width: 200px;
   position: relative;
   top:-15px;
+  left:15px;
+  outline: none;
 
 }
 header .logo{
   position: relative;
   text-align: center;
 }
+header ul li a{
+  color:black;
+}
+header ul li a:hover{
+  border-bottom: 1px solid black;
+  padding-bottom:10px;
+}
+
+
+
+
 @media screen and (max-width: 600px){
   header ul li{
     display:inline-block;
@@ -54,5 +67,4 @@ header .logo{
     margin-right: 5px;
     font-size: 14px;
   }
-  
-}
+}  
