@@ -83,12 +83,12 @@ section{
   width: 100%;
   top:100px;
 }
-img{
+section figure img{
   width: 20%;
   float: left;
 }
 
-figure{
+section figure{
 width: 500%;
 position: relative;
 left: 0;
@@ -117,6 +117,11 @@ animation: 20s slider infinite;
   100%{
     left:-300%;
   }
+}
+section figure div{
+  position: absolute;
+  left: 0;
+  color: black;
 }
 
 
