@@ -57,10 +57,40 @@ header ul li a:hover{
   padding-bottom:10px;
 }
 img{
-  width: 100%;
+  width: 20%;
+  float: left;
 }
 
-
+figure{
+width: 500%;
+position: relative;
+left: 0;
+margin: 0;
+animation: 20s slider infinite;
+}
+@keyframes slider {
+  0% {
+    left:0;
+}
+  25%{
+    left: 0;
+    }
+  30%{
+      left:-100%;
+}
+  60%{
+    left:-100%;
+  }
+  65%{
+    left:-200%;
+  }
+  95%{
+    left:-200%;
+  }
+  100%{
+    left:-300%;
+  }
+}
 
 
 @media screen and (max-width: 600px){
