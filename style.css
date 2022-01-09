@@ -5,6 +5,7 @@
   padding: 0;
   list-style: none;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 @font-face{
   font-family:title;
@@ -30,8 +31,7 @@ header ul li{
   margin-left: 40px;
   margin-right: 40px;
 }
-
-header .logo a{
+.logoa{
   background-image: url(gamerpro.png);
   background-size: 180px;
   background-repeat: no-repeat;
@@ -41,13 +41,59 @@ header .logo a{
   width: 200px;
   position: relative;
   top:-15px;
+  left:15px;
+  outline: none;
 
 }
 header .logo{
   position: relative;
   text-align: center;
 }
-@media screen and (max-width: 800px){
+header ul li a{
+  color:black;
+}
+header ul li a:hover{
+  border-bottom: 1px solid black;
+  padding-bottom:10px;
+}
+img{
+  width: 20%;
+  float: left;
+}
+
+figure{
+width: 500%;
+position: relative;
+left: 0;
+margin: 0;
+animation: 20s slider infinite;
+}
+@keyframes slider {
+  0% {
+    left:0;
+}
+  25%{
+    left: 0;
+    }
+  30%{
+      left:-100%;
+}
+  60%{
+    left:-100%;
+  }
+  65%{
+    left:-200%;
+  }
+  95%{
+    left:-200%;
+  }
+  100%{
+    left:-300%;
+  }
+}
+
+
+@media screen and (max-width: 600px){
   header ul li{
     display:inline-block;
     margin-left: 5px;
@@ -55,5 +101,4 @@ header .logo{
     font-size: 14px;
     font-family: 'Aldrich', Arial, Helvetica, sans-serif;
   }
-  
-}
+}  
