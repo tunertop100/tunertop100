@@ -79,7 +79,7 @@ header ul li a:hover::after{
 section{
   position: relative;
   overflow:hidden;
-  height: 10000px;
+  height: 100%;
   width: 100%;
   top:100px;
 }
