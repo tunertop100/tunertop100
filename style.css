@@ -76,19 +76,20 @@ header ul li a:hover::after{
 
 }
 
-section{
+.slider{
   position: relative;
   overflow:hidden;
   height: 100%;
   width: 100%;
   top:100px;
 }
-section figure img{
+.slider figure img{
   width: 20%;
   float: left;
 }
 
-section figure{
+
+.slider figure{
 width: 500%;
 position: relative;
 left: 0;
@@ -118,11 +119,7 @@ animation: 20s slider infinite;
     left:-300%;
   }
 }
-section figure div{
-  position: relative;
-  text-align: center;
-  color: black;
-}
+
 
 
 @media screen and (max-width: 600px){
