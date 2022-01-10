@@ -119,8 +119,8 @@ animation: 20s slider infinite;
   }
 }
 section figure div{
-  position: absolute;
-  left: 0;
+  position: relative;
+  text-align: center;
   color: black;
 }
 
