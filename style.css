@@ -16,7 +16,7 @@ body{
   background: white;
 }
 header{
-  z-index: +1;
+ 
   top:0;
   position: fixed;
   width: 100%;
@@ -78,14 +78,17 @@ header ul li a:hover::after{
 
 .slider{
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
   height: 100%;
   width: 100%;
-  top:100px;
+  margin-top: 100px;
+
 }
 .slider figure img{
   width: 20%;
   float: left;
+  position: relative;
+  
 }
 
 
@@ -118,6 +121,20 @@ animation: 20s slider infinite;
   100%{
     left:-300%;
   }
+}
+.news1{
+  height:200px;
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+}
+.news1 img{
+  height: 100%;
+}
+.news1 h1{
+  color:red;
+  position: relative;
+  
 }
 
 
