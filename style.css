@@ -122,13 +122,17 @@ animation: 20s slider infinite;
     left:-300%;
   }
 }
-.news1{
-  height:200px;
+.all{
+  display: inline-block;
   position: relative;
   text-align: center;
+}
+.news1{
+  display: inline-block;
+  height:200px;
   margin-top: 50px;
  border: 5px solid skyblue;
- display: inline-block;
+ position: relative;
 }
 .news1 img{
   height: 100%;
