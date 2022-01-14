@@ -141,7 +141,8 @@ animation: 20s slider infinite;
 }
 .news1 h1{
   color: black;
-  position: absolute;
+  
+  
   
 }
 
@@ -161,4 +162,4 @@ animation: 20s slider infinite;
   .news1 img{
     height: 80%;
   }
-}  
+} 
