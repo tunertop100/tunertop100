@@ -143,7 +143,6 @@ animation: 20s slider infinite;
   position: relative;
   
 }
-.all 
 
 
 
@@ -153,5 +152,8 @@ animation: 20s slider infinite;
     margin-left: 5px;
     margin-right: 5px;
     font-size: 14px;
+  }
+  .news1{
+    height: 200px;
   }
 }  
