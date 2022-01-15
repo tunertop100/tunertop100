@@ -152,7 +152,12 @@ animation: 20s slider infinite;
 }
 .news1 h1{
   color: black;
+<<<<<<< HEAD
   font-size: 130%;
+=======
+  
+  
+>>>>>>> 19e04e026f1bae98ba7826311c67000fd32ed999
   
 }
 
@@ -173,4 +178,4 @@ animation: 20s slider infinite;
   .news1 img{
     height: 80%;
   }
-}  
+} 
