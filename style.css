@@ -21,7 +21,7 @@ body{
   
 }
 header{
- z-index: +1;
+ z-index: +10;
   top:0;
   position: fixed;
   width: 100%;
@@ -40,6 +40,7 @@ header ul li{
   display:inline-block ;
   margin-left: 40px;
   margin-right: 40px;
+  
 }
 .logoa{
   background-image: url(gamerpro.png);
@@ -127,12 +128,15 @@ animation: 20s slider infinite;
     left:-300%;
   }
 }
-.slider div{
+.slider figure div{
   position: absolute;
-  z-index: +1;
-  color: white;
-  margin-top: 5%;
+  z-index: +2;
+  color: black;
+  bottom: 20px;
+  left: 20px;
   font-size: 80px;
+ 
+  
 }
 .all{
   display: inline-block;
@@ -152,30 +156,63 @@ animation: 20s slider infinite;
 }
 .news1 h1{
   color: black;
-<<<<<<< HEAD
   font-size: 130%;
-=======
   
   
->>>>>>> 19e04e026f1bae98ba7826311c67000fd32ed999
   
 }
 
 
 
 @media screen and (max-width: 600px){
-  header ul li{
+header{
+ z-index: +10;
+  top:0;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  margin:0;
+  background-color:rgb(255, 255, 255);
+  height: 80px;
+  filter: drop-shadow(0px 0.5px 3px gray)
+}
+ header ul li{
     display:inline-block;
     margin-left: 5px;
     margin-right: 5px;
     font-size: 14px;
     font-family: 'Aldrich', Arial, Helvetica, sans-serif;
   }
+  .logoa{
+  background-image: url(gamerpro.png);
+  background-size: 160px;
+  background-repeat: no-repeat;
+  height: 50px;
+  display: inline-block;
+  text-indent: -9999999px;
+  width: 200px;
+  position: relative;
+  top:-15px;
+  left:15px;
+  outline: none;
+}
+
+.slider{
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin-top: 80px;
+
+}
   .news1{
     height: 200px;
     margin: 20px;
   }
   .news1 img{
     height: 80%;
+  }
+  .slider div{
+    font-size: 30px;
   }
 } 
