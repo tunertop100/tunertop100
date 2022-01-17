@@ -138,6 +138,13 @@ animation: 20s slider infinite;
  
   
 }
+hr{
+  margin:10px;
+}
+.t1{
+  text-align: center;
+  margin: 20px 5px 20px 5px;
+}
 .all{
   display: inline-block;
   position: relative;
