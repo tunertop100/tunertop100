@@ -15,6 +15,10 @@
   font-family:news;
   src:url(Aldrich-Regular.ttf);
 }
+@font-face{
+  font-family:headertitle;
+  src:url(BebasNeue-Book.ttf)
+}
 body{
   margin:0;
   background: white;
@@ -52,7 +56,7 @@ header ul li{
   width: 200px;
   position: relative;
   top:-15px;
-  left:15px;
+  margin-left: 40px;
   outline: none;
 
 }
@@ -128,45 +132,27 @@ animation: 20s slider infinite;
     left:-300%;
   }
 }
-.slider figure div{
-  position: absolute;
-  z-index: +2;
-  color: black;
-  bottom: 20px;
-  left: 20px;
-  font-size: 80px;
- 
-  
-}
 hr{
   margin:10px;
 }
 .t1{
   text-align: center;
-  margin: 20px 5px 20px 5px;
+  margin: 30px 50px 30px 50px;
+   font-family:headertitle;
+   
 }
-.all{
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  width: 100%;
+.newstitle{
   font-family: 'news', Arial, Helvetica, sans-serif;
 }
-.news1{
-  display: inline-block;
-  margin-right:5% ;
-  margin-top: 100px;
- position: relative;
+.imgover{
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
 }
-.news1 img{
-  height: 200px;
-}
-.news1 h1{
-  color: black;
-  font-size: 130%;
-  
-  
-  
+.newsimg{
+  height: 250px;
+  text-align: center;
+  right: 50px;
 }
 
 
@@ -200,8 +186,8 @@ header{
   width: 200px;
   position: relative;
   top:-15px;
-  left:15px;
   outline: none;
+ margin-left: 40px;
 }
 
 .slider{
