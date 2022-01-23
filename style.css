@@ -132,14 +132,18 @@ animation: 20s slider infinite;
     left:-300%;
   }
 }
-hr{
-  margin:10px;
-}
+
 .t1{
   text-align: center;
   margin: 30px 50px 30px 50px;
    font-family:headertitle;
    
+}
+.newssection{
+text-align: center;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+padding: 20px;
 }
 .image1 figure{
   height: 150px;
@@ -157,11 +161,10 @@ hr{
   display: inline;
   
 }
-@media screen and (min-width: 600px){
-.image1{
- 
-  
-}
+hr{
+  margin:10px;
+  border: 0.5px solid gray;
+  background: gray;
 }
 @media screen and (max-width: 600px){
 header{
