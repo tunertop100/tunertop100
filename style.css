@@ -157,7 +157,12 @@ hr{
   display: inline;
   
 }
-
+@media screen and (min-width: 600px){
+.image1{
+ 
+  
+}
+}
 @media screen and (max-width: 600px){
 header{
  z-index: +10;
