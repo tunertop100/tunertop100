@@ -13,11 +13,15 @@
 }
 @font-face{
   font-family:news;
-  src:url(Aldrich-Regular.ttf);
+  src:url(fonts/Aldrich-Regular.ttf);
 }
 @font-face{
   font-family:headertitle;
-  src:url(BebasNeue-Book.ttf)
+  src:url(fonts/BebasNeue-Book.ttf)
+}
+@font-face{
+  font-family:description;
+  src:url(fonts/CaviarDreams.ttf)
 }
 body{
   margin:0;
@@ -159,6 +163,11 @@ padding: 20px;
 .image1 figure figcaption{
   font-size: 20px;
   display: inline;
+  
+}
+.image1 figure div{
+  font-size: 15px;
+   font-family:description;
   
 }
 hr{
