@@ -141,7 +141,7 @@ animation: 20s slider infinite;
 
 .t1{
   text-align: center;
-  margin: 20px 10px 20px 10px;
+  margin: 50px;
    font-family:news;
    font-size: xx-large;
    line-height: 30px;
@@ -155,9 +155,11 @@ padding: 20px;
 
 }
 .image1 figure{
-  height: 150px;
-  width: 50%;
+  height: 140px;
   padding: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  overflow: hidden;
  
 }
  .image1 img{
@@ -174,11 +176,9 @@ padding: 20px;
 .image1 figure div{
   font-size: 15px;
    font-family: Arial, Helvetica, sans-serif;
-   color: blue;
-  
+   color: blue;   
 }
 hr{
-  margin:10px;
   border: 0.5px solid gray;
   background: gray;
 }
@@ -198,7 +198,6 @@ header{
     margin-left: 5px;
     margin-right: 5px;
     font-size: 14px;
-    font-family: 'Aldrich', Arial, Helvetica, sans-serif;
  }
   .logoa{
   background-image: url(gamerpro.png);
@@ -215,6 +214,7 @@ header{
 }
 .t1{
   font-size: 25px;
+  margin: 20px 10px 20px 10px;
 }
 
 .slider{
