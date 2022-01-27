@@ -144,6 +144,7 @@ animation: 20s slider infinite;
   margin: 20px 10px 20px 10px;
    font-family:news;
    font-size: xx-large;
+   line-height: 30px;
    
 }
 .newssection{
@@ -151,17 +152,18 @@ text-align: center;
 border-top: 2px solid black;
 border-bottom: 2px solid black;
 padding: 20px;
+
 }
 .image1 figure{
   height: 150px;
-  width: 400px;
+  width: 50%;
   padding: 20px;
+ 
 }
  .image1 img{
    width:130px;
   float: left;
   padding-right: 10px;
-   
  }
 .image1 figure figcaption{
   font-size: 22px;
@@ -211,6 +213,9 @@ header{
   outline: none;
  margin-left: 40px;
 }
+.t1{
+  font-size: 25px;
+}
 
 .slider{
   position: relative;
@@ -230,4 +235,15 @@ header{
   .slider div{
     font-size: 30px;
   }
+  .image1 figure{
+    width: 400px;
+  }
 } 
+@media screen and (min-width: 600px){
+  .hr1{
+    display: none;
+}
+.image1 figure{
+  float: left;
+}
+}
