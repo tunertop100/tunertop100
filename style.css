@@ -39,7 +39,7 @@ header{
   margin:0;
   background-color:rgb(255, 255, 255);
   height: 100px;
-  filter: drop-shadow(0px 0.5px 3px gray)
+  filter: drop-shadow(0px 0.5px 3px gray);
 }
 header ul{
   font-family: 'Aldrich', Arial, Helvetica, sans-serif;
@@ -184,14 +184,7 @@ hr{
 }
 @media screen and (max-width: 600px){
 header{
- z-index: +10;
-  top:0;
-  position: fixed;
-  width: 100%;
-  margin:0;
-  background-color:rgb(255, 255, 255);
   height: 80px;
-  filter: drop-shadow(0px 0.5px 3px gray)
 }
  header ul li{
     display:inline-block;
