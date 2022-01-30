@@ -191,6 +191,9 @@ height: 80px;
     margin-right: 5px;
     font-size: 14px;
  }
+ header ul li a::after{
+   display: none;
+ }
   .logoa{
   background-image: url(gamerpro.png);
   background-size: 160px;
